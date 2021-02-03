@@ -4,7 +4,7 @@ cabal-version: 2.0
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: fd967698bfd9d9ccd2e79004baaa53ec943399bd7183259308c4623f7600d246
+-- hash: 1d36325eb85f66b3242fb62e90464b3492e75ee1fe78f203058a35e0efe5229a
 
 name:           godot-haskell
 version:        3.1.0.0
@@ -719,6 +719,7 @@ library
     , template-haskell
     , text
     , th-abstraction
+    , type-errors
     , unordered-containers
     , vector
   default-language: Haskell2010
@@ -750,6 +751,7 @@ library generate
     , template-haskell
     , text
     , th-abstraction
+    , type-errors
     , unordered-containers
     , vector
   default-language: Haskell2010
